@@ -1,0 +1,20 @@
+*{
+    background-color: #EFEDD6;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: white;
+    border-radius: 5px;
+    padding: 50px;
+    background-color: #4682B4;
+    width: 150px;
+    text-align: center;
+    box-shadow: saddlebrown;
+}
