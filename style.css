@@ -1,20 +1,39 @@
-*{
+* {
     background-color: #EFEDD6;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-h2{
+h2 {
     color: white;
     border-radius: 5px;
     padding: 50px;
     background-color: #4682B4;
     width: 150px;
     text-align: center;
-    box-shadow: saddlebrown;
+}
+
+.box {
+    /* position: relative; */
+    transform: translateX(-850px);
+    /* opacity: 0; */
+    transition: 2s all ease;
+}
+
+.box.active {
+    transform: translateX(0px);
+    /* opacity: 1; */
+}
+
+
+.box:nth-of-child(even) {
+    /* position: relative;s */
+    transform: translateX(250px);
+    opacity: 0;
+    transition: 2s all ease; 
 }
